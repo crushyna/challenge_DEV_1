@@ -1,0 +1,2 @@
+# challenge_DEV_1
+Each gene consists of coding regions (exons) and non-coding regions (introns). In VCF file format, amplifications of exons in given gene often are represented in a following way: 1-14/14 . It means that in this gene exons from 1 to 14 were amplified on total of 14. If the representation was [[1-4/19], [6-19/19]] it means that only exons from 1 to 4 and 6 to 19 were amplified (no amplification of exon 5). Given following input data, write a function that checks if gene is continuously amplified
